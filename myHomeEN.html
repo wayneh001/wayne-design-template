@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myHome</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+  <div class="sticky-top shadow">
+    <nav class="navbar navbar-dark bg-main">
+      <div class="container">
+        <a class="navbar-brand" href="worksZH.html">
+          <img src="img/Logo@Nav.svg" alt="Logo" width="20" height="30" class="d-inline-block align-middle me-2">
+          <span class="fw-light fs-6 d-none d-md-inline">Wayne's Design</span>
+        </a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link px-2 custome-nav-white fw-lighter" href="myHomeZH.html">ZH</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link px-2 dropdown-toggle custom-active" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Works
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="myHomeEN.html">myHome</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 custome-nav-white" href="aboutEN.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="secondaryNav" class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link backgroundClick" href="#">Background</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link personaClick" href="#">Persona</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link userStoryClick" href="#">User Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link goalsClick" href="#">Goals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link wireframesClick" href="#">Wireframes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link styleClick" href="#">Style</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link displayClick" href="#">Display</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <div class="container">
+    <div id="background" class="container p-3 animate__animated animate__fadeInUp">
+      <h2 class="ms-1 my-3 fw-bold text-main ">Background</h2>
+      <div class="row row-md-2 g-4">
+        <div class="col-md-6 mb-md-0">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">Motivation</h5>
+            <div class="card-body">
+              <p class="card-text">I once worked in a smart home solution firm. I did learn some know-how of smart home. I decorated my home with HomeKit accessories.</p>
+              <p class="card-text">After receiving structural and professional UI / UX  training in 2021, and finished a team project on smart home app design. I designed the wireframe.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-md-0">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">Side Project</h5>
+            <div class="card-body h-100">
+              <p class="card-text">After the course, I committed to exploring the smart home. I decided to focus on the platform, including iPadOS and macOS.</p>
+              <p class="card-text">Apple Home is an integrated platform for smart home accessory manufacturers. Though it’s very convenient, but not that powerful because lots of accessories’ functions have been limited and canceled in Home.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+    <div id="persona" class="container p-3">
+      <h2 class="ms-1 my-3 fw-bold text-main ">Persona</h2>
+      <div id="personaRow" class="row row-cols-1 row-cols-md-3 flex-nowrap overflow-auto">
+        <div id="personaHint" class="col hint d-flex align-items-center mx-auto">
+          <img src="img/Hint.svg" alt="Hint" class="iconStyle" style="width: 40px;">
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">Quentin</h5>
+            <img src="img/Avatar/AvatarOne.svg" alt="Quentin" class="mt-3 mx-2 iconStyle">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-3 text-muted">Male; Landlord; Single</h6>
+              <p class="card-text mb-0">What he’s looking for is...</p>
+              <ul class="list-group list-group-flush fw-light">
+                <li class="list-group-item px-0">Easy use HomeKit Apps to add accessories across houses.</li>
+                <li class="list-group-item px-0">Clear and intuitive to ways to manage houses, such as quick switch; Backup, and copy.</li>
+                <li class="list-group-item px-0">The basic function of accessory only.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">Shane</h5>
+            <img src="img/Avatar/AvatarTwo.svg" alt="Shane" class="mt-3 mx-2 iconStyle">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-3 text-muted">Male; Tech YouTuber; Single</h6>
+              <p class="card-text mb-0">What he’s looking for is...</p>
+              <ul class="list-group list-group-flush fw-light">
+                <li class="list-group-item px-0">Refreshing and unique UI.</li>
+                <li class="list-group-item px-0">As functional as native apps for the accessory.</li>
+                <li class="list-group-item px-0">Well-designed automation and scene flow.</li>
+                <li class="list-group-item px-0">Easy access to all native apps.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">Javis</h5>
+            <img src="img/Avatar/AvatarThree.svg" alt="Javis" class="mt-3 mx-2 iconStyle">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-3 text-muted">Male; White Collar; Wife & 2 kids</h6>
+              <p class="card-text mb-0">What he’s looking for is...</p>
+              <ul class="list-group list-group-flush fw-light">
+                <li class="list-group-item px-0">A dashboard mode for iPad that is mounted on the wall.</li>
+                <li class="list-group-item px-0">Easy to use for kids.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="userStory" class="container p-3">
+      <h2 class="ms-1 my-3 fw-bold text-main ">User Story</h2>
+      <div class="row row-md-2 g-4">
+        <div class="col-md-6 mb-md-0">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">First of all...</h5>
+            <div class="card-body">
+              <p class="card-text">Apple Home is good, but some of my accessory’ function is missing.</p>
+              <p class="card-text">To strengthen the functionality through expanding parameters for the accessory. The design will include...</p>
+              <ul class="list-group list-group-flush fw-light">
+                <li class="list-group-item px-0">Group the accessories and build a standard parameter list.</li>
+                <li class="list-group-item px-0">Authorize to visit the accessory’s native app, and save the setting.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-md-0">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">And...</h5>
+            <div class="card-body">
+              <p class="card-text">I would like to set up automation in several conditions, and it’s not working in Apple Home.</p>
+              <p class="card-text">To expand the condition setting for automation through building logical and structural setting flow. The design will include...</p>
+              <ul class="list-group list-group-flush fw-light">
+                <li class="list-group-item px-0">Trigger - Condition - Scene flow.</li>
+                <li class="list-group-item px-0">Independent SCENE label.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-md-0">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">However...</h5>
+            <div class="card-body">
+              <p class="card-text">AI want a dashboard mode for my unused and wall-mounted iPad.</p>
+              <p class="card-text">To provide dashboard mode for iPad through building large widgets and one-page UI.</p>
+              <ul class="list-group list-group-flush fw-light">
+                <li class="list-group-item px-0">Widgets ( time and environment status ) - Accessories layout on every page.</li>
+                <li class="list-group-item px-0">ROOMS label tab bars.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-md-0">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">Finally...</h5>
+            <div class="card-body">
+              <p class="card-text">It will be great if I can backup my settings or accessory’s code.</p>
+              <p class="card-text">To provide backup function through code and setting backup. The design will include...</p>
+              <ul class="list-group list-group-flush fw-light">
+                <li class="list-group-item px-0">Sync with Apple ID.</li>
+                <li class="list-group-item px-0">Code export in the setting.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="goals" class="container p-3">
+      <h2 class="ms-1 my-3 fw-bold text-main ">Goals</h2>
+      <div class="row row-md-2 g-4">
+        <div class="col-md-6 mb-md-0">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">Idea</h5>
+            <div class="card-body">
+              <p class="card-text">To keep the main function of Apple Home, but redesign the structure flow and UI for the Apple platform.</p>
+              <p class="card-text">And a better CONTROL CENTER DASHBOARD, with large widgets, easy switches, and fewer pages.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-md-0">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">Target user</h5>
+            <div class="card-body">
+              <p class="card-text">This app is target to someone who...</p>
+              <ul class="list-group list-group-flush fw-light">
+                <li class="list-group-item px-0">New to Apple Home.</li>
+                <li class="list-group-item px-0">Looking for better experience and control than Apple Home.</li>
+                <li class="list-group-item px-0">Looking for a wall-mounted iPad that displays dashboard only without complex function.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="wireframes" class="container p-3">
+      <h2 class="ms-1 my-3 fw-bold text-main ">Wireframs</h2>
+      <div id="wireframesRow" class="row row-cols-1 row-cols-md-3 flex-nowrap overflow-auto">
+        <div id="wireframesHint" class="col hint d-flex align-items-center mx-auto">
+          <img src="img/Hint.svg" alt="Hint" class="iconStyle" style="width: 40px;">
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">Home page layout.</h5>
+            <div class="card-body">
+              <p class="card-text">After a deep study of the competitors’ apps, I felt Apple Home’s home page layout was most suitable. For a tool application, the app’s function needed to be easy and convent to manipulate, and that’s why a block ( bigger ) is better than a list.</p>
+              <p class="card-text">And to enhance the interaction experience. I put not the only status of the accessory, but with a menu icon so the user can quickly access to function page ( The user can tap the block to turn on or off the accessory for sure )</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">List view of accessories.</h5>
+            <div class="card-body">
+              <p class="card-text">A block is easier to tap, but not to read, so what if the user wants to browse the accessories in the group? List view of accessories in iOS came to my mind.</p>
+              <p class="card-text">I grouped the accessories with rooms, although accessories can also be displayed in the Room tab, sometimes, you may just forget the right room of the accessory you are looking for.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">Structural design of control.</h5>
+            <div class="card-body">
+              <p class="card-text">Structure means more than tidy. For front-end design, structural design forces the designer to focus on the foundation and major function of an accessory. For example, you may consider a light’s function so different from a camera, but they should both need a toggle to turn on or off, and the same structure to display some general manipulation such as rename and accessories’ info. And then you can design function pages respectively. And for back-end development, it reduces the time.</p>
+            </div>
+          </div>
+        </div>
+        <div class="co pb-3">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">Trigger - Condition - Scene</h5>
+            <div class="card-body">
+              <p class="card-text">Structure means more than tidy. For front-end design, structural design forces the designer to focus on the foundation and major function of an accessory. For example, you may consider a light’s function so different from a camera, but they should both need a toggle to turn on or off, and the same structure to display some general manipulation such as rename and accessories’ info. And then you can design function pages respectively. And for back-end development, it reduces the time.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">Dashboard view in iPad.</h5>
+            <div class="card-body">
+              <p class="card-text">As mentioned in goals, some users mounted unused iPad on the wall to make it a dashboard. Dashboard represents a control center for a smart home. On some occasions dashboard is more convenient, for example, a too complicated instruction for your HomePod, or your iOS device is not available, or you just want to check the time, weather, or temperature.</p>
+              <p class="card-text">Dashboard required some features, such as widgets that always display on the screen, a bigger block for an accessory, and a shortcut to the accessory’s function.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex mt-3 overflow-scroll">
+        <img src="img/Wireframes/1.0.0.0.0.png" alt="Home" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/1.1.0.0.0.png" alt="Room" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/1.2.0.0.0.png" alt="Automation" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/1.3.0.0.0.png" alt="Setting" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/2.2.2.0.0.png" alt="Function - Lights" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/3.0.6.0.0.png" alt="Function - Blinds" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/3.0.6.1.0.png" alt="Function - AC" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/3.0.6.2.0.png" alt="New Automation" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/3.2.2.0.0.png" alt="Condition" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/4.2.2.0.0.png" alt="Scene" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+      </div>
+    </div>
+
+    <div id="style" class="container p-3">
+      <h2 class="ms-1 my-3 fw-bold text-main ">Style</h2>
+      <div id="styleRow" class="row row-cols-1 row-cols-md-3 flex-nowrap overflow-auto">
+        <div id="styleHint" class="col hint d-flex align-items-center mx-auto">
+          <img src="img/Hint.svg" alt="Hint" class="iconStyle" style="width: 40px;">
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">Theme colors</h5>
+            <img src="img/Style/ThemeColor.svg" alt="Theme color" width="148.89" class="mt-3 mx-2" style="filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.25));">
+            <div class="card-body">
+              <p class="card-text">To deliver a sense of deep and stability, I took ultramarine <span class="text-main">#1A56A2</span> in Hex, or ( 214, 84, 64 in HSB ) as the main color.</p>
+              <p class="card-text">And to determine the secondary color, I kept the hue from main, and adjusted saturation to 10, brightness to 95, <span class="text-secondary">#DAE5F2</span> in Hex.</p>
+              <p class="card-text">For auxiliary color, I kept the saturation and brightness from main, but minus 30 from hue to 194, <span class="text-auxiliary">#21A4CC</span> in Hex.</p>
+              <p class="card-text">Finally, for 3 scales of gray, I took from the Morandi Palette, which was <span class="text-darkGray">#656667</span> for dark gray, <span class="text-neutralGray">#B4B4B4</span> for neutral gray, and <span class="text-lightGray">#D4D1CD</span> for light gray.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">Icons</h5>
+            <img src="img/Style/Icons.svg" alt="Icons" class="mt-3 mx-2 iconStyle">
+            <div class="card-body">
+              <p class="card-text">Filled icons are great, but it’s not easy to integrate colors, and it turns out to distract the main color. Then, smart home apps required more special icons than other apps, some of which are not suitable to fill. I chose a 2px stroke with main color #1A56A2 to build icons.</p>
+              <p class="card-text">For join, to stay sharp, miter indeed.</p>
+              <p class="card-text">In iOS, 22px icons are majors, 24px icons for tab bar. 24px icons takes the major place for 22px icons in iPadOS and macOS. 22px icons are majors for watchOS.</p>
+              <p class="card-text">After lots of attempts, I designed the room’s icon with the most representative thing in the room, like a sofa for the living room.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">Logo design</h5>
+            <img src="img/Style/LogoDesign.svg" alt="Logo design" class="mt-3 mx-2 iconStyle">
+            <div class="card-body">
+              <p class="card-text">The logo design started with the image of a house, and the letter “m", “y” to stand for “my”.</p>
+              <p class="card-text">The basic shapes are two overlapping horizontal flip corner cut rectangles, and for style consistency from icons, stroke was applied.</p>
+              <p class="card-text">Finally to emphasize letters, main and auxiliary colors were used.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">Rounded rectangle</h5>
+            <img src="img/Style/RoundedRectangle.svg" alt="Rounded rectangle" class="mt-3 mx-2 iconStyle">
+            <div class="card-body">
+              <p class="card-text">Lists are the basic and most used components in this side project app. In order to make the app softer, rounded rectangles are widely used.</p>
+              <p class="card-text">Lists are piled in groups, and the corner radius is set to 7 for the first and last child.</p>
+              <p class="card-text">For other larger components like blocks and pop-up windows, the radius is set to 14.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100 shadow-sm">
+            <h5 class="card-header">Active and inactive</h5>
+            <img src="img/Style/ActiveAndInactive.svg" alt="Active and inactive" class="mt-3 mx-2 iconStyle">
+            <div class="card-body">
+              <p class="card-text">Filled and stroke may be the most seen method to distinguish icons in active or inactive, but as mentioned in icons, I decided to use light gray for inactive icons.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="display" class="container p-3">
+      <div id="iPhoneDisplay" class="mb-2">
+        <h2 class="ms-1 my-3 fw-bold text-main ">iPhone Display</h2>
+        <div id="functionOne" class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">Basic view of each tab. Home - Room - Automation - Setting; List view of accessories.</p>
+          </div>
+        </div>
+        <div id="functionOneDisplay" class="d-flex mt-2 mb-4 overflow-auto">
+          <img src="img/Display/iOS/FunctionOne/1.0.0.0.0.png" alt="Home" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionOne/1.1.0.0.0.png" alt="Room" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionOne/1.2.0.0.0.png" alt="Automation" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionOne/1.3.0.0.0.png" alt="Setting" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionOne/1.0.0.0.1.png" alt="Home / List view" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        </div>
+        <div id="functionTwo" class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">Structural design of control.</p>
+          </div>
+        </div>
+        <div id="functionTwoDisplay" class="d-flex mt-2 mb-4 overflow-auto">
+          <img src="img/Display/iOS/FunctionTwo/2.0.6.0.0.png" alt="Accessory" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionTwo/2.0.6.0.7.png" alt="Switch" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionTwo/2.0.6.0.8.png" alt="Motion sensor" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionTwo/3.0.6.0.1.png" alt="Function / Light" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionTwo/3.0.6.0.2.png" alt="Function / Blinds" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionTwo/3.0.6.0.3.png" alt="Function / AC" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionTwo/3.0.6.0.4.png" alt="Function / Camera" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionTwo/3.0.6.0.5.png" alt="Function / Locker" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        </div>
+        <div id="functionThree" class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">Quick setting of scene and Trigger - Condition - Scene structure.</p>
+          </div>
+        </div>
+        <div id="functionThreeDisplay" class="d-flex mt-2 mb-4" style="overflow-x: scroll;">
+          <img src="img/Display/iOS/FunctionThree/2.2.1.0.0.png" alt="New scene" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionThree/3.2.1.0.0.png" alt="Suggested scene" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionThree/4.2.1.2.0.png" alt="Add accessory or scene" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionThree/2.2.2.0.0.png" alt="New automation" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionThree/3.2.2.0.0.png" alt="Condition" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionThree/4.2.2.0.0.png" alt="Scene" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        </div>
+      </div>
+      <div id="iPadDisplay" class="mb-2">
+        <h2 class="ms-1 my-3 fw-bold text-main ">iPad Display</h2>
+        <div id="vertical" class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">Vertical view, sidebar and pop-up window.</p>
+          </div>
+        </div>
+        <div id="verticalDisplay" class="d-flex mt-2 mb-4" style="overflow-x: scroll;">
+          <img src="img/Display/iPadOS/Vertical/1.0.0.0.0.png" alt="Home" width="417" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iPadOS/Vertical/1.0.1.0.0.png" alt="Home / Sidebar" width="417" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iPadOS/Vertical/2.0.6.0.0.png" alt="Light" width="417" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iPadOS/Vertical/3.0.6.0.0.png" alt="Function / Light" width="417" class="mt-3 mx-2 pb-4 UIStyle">
+        </div>
+        <div id="horizontal" class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">Dashboard mode in horizontal view.</p>
+          </div>
+        </div>
+        <div id="horizontalDisplay" class="d-flex mt-2 mb-4 overflow-auto">
+          <img src="img/Display/iPadOS/Horizontal/1.0.7.0.0.png" alt="Home / Dashboard" width="597" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iPadOS/Horizontal/2.0.7.1.0.png" alt="Light" width="597" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iPadOS/Horizontal/2.0.7.1.1.png" alt="Function / Light" width="597" class="mt-3 mx-2 pb-4 UIStyle">
+        </div>
+      </div>
+      <div id="macAndWatchDisplay" class="mb-2">
+        <h2 class="ms-1 my-3 fw-bold text-main ">Mac & Apple Watch Display</h2>
+        <div id="mac" class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">Basic sidbar structure and pop-up in 2 windows.</p>
+          </div>
+        </div>
+        <div id="macDisplay" class="d-flex mt-2 mb-4 overflow-auto">
+          <img src="img/Display/macOS/1.0.0.0.0.png" alt="Home" width="720" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/macOS/2.0.5.0.0.png" alt="Light" width="720" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/macOS/3.0.5.0.0.png" alt="Function / Light" width="720" class="mt-3 mx-2 pb-4 UIStyle">
+        </div>
+        <div id="appleWatch" class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">Basic view and control of Apple Watch app.</p>
+          </div>
+        </div>
+        <div id="appleWatchDisplay" class="d-flex mt-2 mb-4 overflow-auto">
+          <img src="img/Display/watchOS/1.0.0.0.png" alt="myHome / Dashboard" width="184" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/watchOS/2.0.0.0.png" alt="Room" width="184" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/watchOS/3.0.0.0.png" alt="Display" width="184" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/watchOS/3.0.0.1.png" alt="Display / Scroll down" width="184" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/watchOS/4.0.0.0.png" alt="Light" width="184" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/watchOS/5.0.0.0.png" alt="Function / Light" width="184" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/watchOS/5.0.0.1.png" alt="Function / Blinds" width="184" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/watchOS/5.0.0.2.png" alt="Function / AC" width="184" class="mt-3 mx-2 pb-4 UIStyle">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="container-fluid d-flex align-items-center py-4 bg-main text-white">
+    <div class="container">
+      <div class="col d-flex mb-3 justify-content-center">
+        <span class="socialApps mx-2"><a href=""><img src="img/SocialApps/LinkedIn.svg" alt="LinkedIn" class="iconStyle"></a></span>
+        <span class="socialApps mx-2"><a href=""><img src="img/SocialApps/Line.svg" alt="Line" class="iconStyle"></a></span>
+        <span class="socialApps mx-2"><a href=""><img src="img/SocialApps/Facebook.svg" alt="Facebook" class="iconStyle"></a></span>
+        <span class="socialApps mx-2"><a href=""><img src="img/SocialApps/Behance.svg" alt="Behance" class="iconStyle"></a></span>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <p>© Wayne, Design. 2021. Passion</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <script id="closeSecondaryNav">
+    $(function(){
+      $('#secondaryNav a').on('click', function(){
+      $('.navbar-toggler').trigger('click');
+      });
+    });
+  </script>
+  
+  <script id="scrollTo">  
+    $(".backgroundClick").click(function() {
+      if ($(window).width() >= 768) {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#background").offset().top - 100
+        }, 500,);
+        } else {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#background").offset().top - 380
+        }, 300,);
+      };
+    });
+    $(".personaClick").click(function() {
+      if ($(window).width() >= 768) {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#persona").offset().top - 100
+        }, 500,);
+        } else {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#persona").offset().top - 380
+        }, 300,);
+      };
+      $("#hambergur").attr("aria-expanded","false");
+    });
+    $(".userStoryClick").click(function() {
+      if ($(window).width() >= 768) {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#userStory").offset().top - 100
+        }, 500,);
+        } else {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#userStory").offset().top - 380
+        }, 300,);
+      };
+    });
+    $(".goalsClick").click(function() {
+      if ($(window).width() >= 768) {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#goals").offset().top - 100
+        }, 500,);
+        } else {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#goals").offset().top - 380
+        }, 300,);
+      }
+    });
+    $(".wireframesClick").click(function() {
+      if ($(window).width() >= 768) {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#wireframes").offset().top - 100
+        }, 500,);
+        } else {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#wireframes").offset().top - 380
+        }, 300,);
+      }
+    });
+    $(".styleClick").click(function() {
+      if ($(window).width() >= 768) {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#style").offset().top - 100
+        }, 500,);
+        } else {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#style").offset().top - 380
+        }, 300,);
+      }
+    });
+    $(".DisplayClick").click(function() {
+      if ($(window).width() >= 768) {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#Display").offset().top - 100
+        }, 500,);
+        } else {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#iPhoneDisplay").offset().top - 380
+        }, 300,);
+      }
+    });
+  </script>
+
+  <script id="fadeInUp">
+    $(document).ready(function(){
+      if ($(window).width() >= 992){
+        $("#persona").addClass("animate__animated");
+        $("#persona").addClass("animate__fadeInUp");
+        $("#userStory").addClass("animate__animated");
+        $("#userStory").addClass("animate__fadeInUp");
+      } else if ($(window).width() >= 768){
+        $("#persona").addClass("animate__animated");
+        $("#persona").addClass("animate__fadeInUp");
+      }
+    });
+    $(window).scroll(function() {
+      var top_of_element = $("#persona").offset().top;
+      var bottom_of_element = $("#persona").offset().top + $("#persona").outerHeight();
+      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+      var top_of_screen = $(window).scrollTop();
+
+      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $("#persona").addClass("animate__animated");
+        $("#persona").addClass("animate__fadeInUp");
+        }
+    });
+    $(window).scroll(function() {
+      var top_of_element = $("#userStory").offset().top;
+      var bottom_of_element = $("#userStory").offset().top + $("#userStory").outerHeight();
+      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+      var top_of_screen = $(window).scrollTop();
+
+      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $("#userStory").addClass("animate__animated");
+        $("#userStory").addClass("animate__fadeInUp");
+      }
+    });
+    $(window).scroll(function() {
+      var top_of_element = $("#goals").offset().top;
+      var bottom_of_element = $("#goals").offset().top + $("#goals").outerHeight();
+      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+      var top_of_screen = $(window).scrollTop();
+
+      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $("#goals").addClass("animate__animated");
+        $("#goals").addClass("animate__fadeInUp");
+      }
+    });
+    $(window).scroll(function() {
+      var top_of_element = $("#wireframes").offset().top;
+      var bottom_of_element = $("#wireframes").offset().top + $("#wireframes").outerHeight();
+      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+      var top_of_screen = $(window).scrollTop();
+
+      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $("#wireframes").addClass("animate__animated");
+        $("#wireframes").addClass("animate__fadeInUp");
+      }
+    });
+    $(window).scroll(function() {
+      var top_of_element = $("#style").offset().top;
+      var bottom_of_element = $("#style").offset().top + $("#style").outerHeight();
+      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+      var top_of_screen = $(window).scrollTop();
+
+      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $("#style").addClass("animate__animated");
+        $("#style").addClass("animate__fadeInUp");
+      }
+    });
+    $(window).scroll(function() {
+      var top_of_element = $("#iPhoneDisplay").offset().top;
+      var bottom_of_element = $("#iPhoneDisplay").offset().top + $("#iPhoneDisplay").outerHeight();
+      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+      var top_of_screen = $(window).scrollTop();
+
+      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $("#iPhoneDisplay").addClass("animate__animated");
+        $("#iPhoneDisplay").addClass("animate__fadeInUp");
+      }
+    });
+    $(window).scroll(function() {
+      var top_of_element = $("#iPadDisplay").offset().top;
+      var bottom_of_element = $("#iPadDisplay").offset().top + $("#iPadDisplay").outerHeight();
+      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+      var top_of_screen = $(window).scrollTop();
+
+      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $("#iPadDisplay").addClass("animate__animated");
+        $("#iPadDisplay").addClass("animate__fadeInUp");
+      }
+    });
+    $(window).scroll(function() {
+      var top_of_element = $("#macAndWatchDisplay").offset().top;
+      var bottom_of_element = $("#macAndWatchDisplay").offset().top + $("#macAndWatchDisplay").outerHeight();
+      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+      var top_of_screen = $(window).scrollTop();
+
+      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $("#macAndWatchDisplay").addClass("animate__animated");
+        $("#macAndWatchDisplay").addClass("animate__fadeInUp");
+      }
+    });
+  </script>
+
+  <script id="checkHint">
+    $(document).ready(function(){
+      if ($(window).width() >= 768) {
+        $("#personaHint").removeClass("d-flex"); 
+        $("#personaHint").hide();
+      }
+    })
+  </script>
+
+  <script id="getHintHeight">
+    $(document).ready(function(){
+      $("#personaHint").height($("#personaRow").height());
+    })
+    $(document).ready(function(){
+      $("#wireframesHint").height($("#wireframesRow").height());
+    })
+    $(document).ready(function(){
+      $("#styleHint").height($("#styleRow").height());
+    })
+  </script>
+
+    <script id="toggleHint">
+    $('#personaRow').scroll(function() {
+      if ($("#personaRow").scrollLeft() != 0) {
+        $("#personaHint").removeClass("d-flex"); 
+        $("#personaHint").hide();                           
+      } else {
+        $("#personaHint").addClass("d-flex"); 
+        $("#personaHint").show();  
+      }
+    })
+    $('#wireframesRow').scroll(function() {
+      if ($("#wireframesRow").scrollLeft() != 0) {
+        $("#wireframesHint").removeClass("d-flex"); 
+        $("#wireframesHint").hide();                           
+      } else {
+        $("#wireframesHint").addClass("d-flex"); 
+        $("#wireframesHint").show();  
+      }
+    })
+    $('#styleRow').scroll(function() {
+      if ($("#styleRow").scrollLeft() != 0) {
+        $("#styleHint").removeClass("d-flex"); 
+        $("#styleHint").hide();                           
+      } else {
+        $("#styleHint").addClass("d-flex"); 
+        $("#styleHint").show();  
+      }
+    })
+  </script>
+
+</body>
+</html>

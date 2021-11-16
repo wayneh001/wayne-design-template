@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Ubuntu&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: 'Ubuntu', 'Noto Sans TC', sans-serif;
+}
+
+#logoIndex {
+    animation-duration: 3s;
+}
+
+.bg-main {
+    background-color: #1A56A2;
+}
+
+.text-main {
+    color: #1A56A2;
+}
+
+.text-secondary {
+    color: #DAE5F2;
+}
+
+.text-auxiliary {
+    color: #21A4CC;
+}
+
+.text-darkGray {
+    color: #656667;
+}
+
+.text-neutralGray {
+    color: #B4B4B4;
+}
+
+.text-lightGray {
+    color: #D4D1CD;
+}
+
+.custome-nav-white {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.custome-nav-white:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.custome-nav-white:visited {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.custom-active {
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+}
+
+.custom-active:hover {
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+}
+
+.custom-active:visited {
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+}
+
+.btn-main {
+    background-color: #1A56A2;
+    color: #fff;
+}
+
+.iconStyle {
+    width: 60px;
+    filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.25));
+}
+
+.UIStyle {
+    filter: drop-shadow(0px 3px 6px rgba(0,0,0,0.25));
+}
+
+.hint {
+    width: 30px;
+    background-color:rgba(255,255,255,0.1);
+    position: absolute;
+    right: 20px;
+    z-index: 2;
+}

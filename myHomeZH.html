@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myHome</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+  <div class="sticky-top shadow">
+    <nav class="navbar navbar-dark bg-main">
+      <div class="container">
+        <a class="navbar-brand" href="worksZH.html">
+          <img src="img/Logo@Nav.svg" alt="Logo" width="20" height="30" class="d-inline-block align-middle me-2">
+          <span class="fw-light fs-6 d-none d-md-inline">Wayne's Design</span>
+        </a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link px-2 custome-nav-white fw-lighter" href="myHomeEN.html">EN</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link px-2 dropdown-toggle custom-active" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              作品
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="myHomeZH.html">myHome</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 custome-nav-white" href="aboutZH.html">關於</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="secondaryNav" class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link backgroundClick" href="#">企劃背景</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link personaClick" href="#">用戶人物誌</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link userStoryClick" href="#">用戶故事線</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link goalsClick" href="#">目標</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link wireframesClick" href="#">原型</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link styleClick" href="#">風格</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link displayClick" href="#">呈現</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <div class="container">
+    <div id="background" class="container p-3 animate__animated animate__fadeInUp">
+      <h2 class="ms-1 my-3 fw-bold text-main ">企劃背景</h2>
+      <div class="row row-md-2 g-4">
+        <div class="col-md-6 mb-md-0">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">創作由來</h5>
+            <div class="card-body">
+              <p class="card-text">我曾經在智慧居家方案規劃公司工作，從中我學習到了許多智慧居家相關的知識。我為我的兩套住宅配置了完整的智慧居家，而最新的一套方案擷取經驗，採用全 HomeKit 配件。</p>
+              <p class="card-text">2021 年進行結構化的 UI / UX 專業培訓，並完成了一個團隊協作的智慧居家項目。我在項目中負責原型的建構。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-md-0">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">個人項目</h5>
+            <div class="card-body h-100">
+              <p class="card-text">培訓課程結束後，我致力於探索智慧居家。第一個個人項目，我選擇 Apple 生態系，除了基本的 iOS，也包括 iPadOS 和 macOS 的設計。</p>
+              <p class="card-text">Apple 原生的家庭整合不同智慧居家配件製造商的應用平台。雖然簡單易用，但沒有在各別應用中來的強大，為了集成，許多配件進階功能都被限制或取消。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+    <div id="persona" class="container p-3">
+      <h2 class="ms-1 my-3 fw-bold text-main ">用戶人物誌</h2>
+      <div id="personaRow" class="row row-cols-1 row-cols-md-3 flex-nowrap overflow-auto">
+        <div id="personaHint" class="col hint d-flex align-items-center mx-auto">
+          <img src="img/Hint.svg" alt="Hint" class="iconStyle" style="width: 40px;">
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">Quentin</h5>
+            <img src="img/Avatar/AvatarOne.svg" alt="Quentin" class="mt-3 mx-2 iconStyle">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-3 text-muted">男性；房東；未婚</h6>
+              <p class="card-text mb-0">他的需求為⋯</p>
+              <ul class="list-group list-group-flush fw-light">
+                <li class="list-group-item px-0">能載他眾多的房產中快速且批量新增配件的 HomeKit 應用。</li>
+                <li class="list-group-item px-0">清晰且直覺的房屋管理，如快速切換房屋、設定備份與配件條碼複製。</li>
+                <li class="list-group-item px-0">只需要配件的基本功能即可。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">Shane</h5>
+            <img src="img/Avatar/AvatarTwo.svg" alt="Shane" class="mt-3 mx-2 iconStyle">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-3 text-muted">男性；科技 Youtuber；未婚</h6>
+              <p class="card-text mb-0">他的需求為⋯</p>
+              <ul class="list-group list-group-flush fw-light">
+                <li class="list-group-item px-0">新穎且獨特的介面。</li>
+                <li class="list-group-item px-0">猶如配件原生應用般的功能體現。</li>
+                <li class="list-group-item px-0">重新設計的自動化與情境設定流程。</li>
+                <li class="list-group-item px-0">能快速連結至配件的原生應用。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">Javis</h5>
+            <img src="img/Avatar/AvatarThree.svg" alt="Javis" class="mt-3 mx-2 iconStyle">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-3 text-muted">男性；白領上班族；妻與二女</h6>
+              <p class="card-text mb-0">他的需求為⋯</p>
+              <ul class="list-group list-group-flush fw-light">
+                <li class="list-group-item px-0">儀表板模式，讓他壁掛式的 iPad 發揮最大的家庭控制功能。</li>
+                <li class="list-group-item px-0">對兒童來說也易用的操作方式。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="userStory" class="container p-3">
+      <h2 class="ms-1 my-3 fw-bold text-main ">用戶故事線</h2>
+      <div class="row row-md-2 g-4">
+        <div class="col-md-6 mb-md-0">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">起，企劃的最核心價值</h5>
+            <div class="card-body">
+              <p class="card-text">Apple 家庭很棒，但為了整合犧牲了一些配件的進階功能。</p>
+              <p class="card-text">以結構化設計了強化可調用的功能與設定參數。設計將包括⋯</p>
+              <ul class="list-group list-group-flush fw-light">
+                <li class="list-group-item px-0">群組化配件，並建立標準參數列表。</li>
+                <li class="list-group-item px-0">建立連結配件原生應用的入口，並自動儲存設定。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-md-0">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">承，進階版的強化方案</h5>
+            <div class="card-body">
+              <p class="card-text">我想為自動化設定更複雜的條件限制，但在目前版本的 Apple 家庭中無法完成。</p>
+              <p class="card-text">透過建立邏輯化的設定流程來強畫自動化條件。設計將包括⋯</p>
+              <ul class="list-group list-group-flush fw-light">
+                <li class="list-group-item px-0">觸發–條件–情境的自動化流程。</li>
+                <li class="list-group-item px-0">獨立的情境標籤。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-md-0">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">轉，是否還有發揮空間</h5>
+            <div class="card-body">
+              <p class="card-text">我想要一個儀表板模式，發揮我壁掛式 iPad 的最大價值。</p>
+              <p class="card-text">為儀表板模式增加小工具，並做到單頁式 UI。設計將包括⋯</p>
+              <ul class="list-group list-group-flush fw-light">
+                <li class="list-group-item px-0">顯示時間與環境狀態的小工具–配件的頁面佈局。</li>
+                <li class="list-group-item px-0">獨立的各房間導覽頁面。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-md-0">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">合，錦上添花的新功能</h5>
+            <div class="card-body">
+              <p class="card-text">如果可以備份我的設定或配件條碼就太好了。</p>
+              <p class="card-text">為使用者做的設定和配件條碼提供備份功能。設計將包括⋯</p>
+              <ul class="list-group list-group-flush fw-light">
+                <li class="list-group-item px-0">與 Apple ID 連結。</li>
+                <li class="list-group-item px-0">配件條碼導出。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="goals" class="container p-3">
+      <h2 class="ms-1 my-3 fw-bold text-main ">目標</h2>
+      <div class="row row-md-2 g-4">
+        <div class="col-md-6 mb-md-0">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">想法</h5>
+            <div class="card-body">
+              <p class="card-text">保留 Apple 家庭的核心功能，但為生態系重新設計結構流程和 UI。</p>
+              <p class="card-text">為壁掛式 iPad 配置儀表板模式的控制中心，帶有大尺寸小工具、輕鬆切換和更快捷操作。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-md-0">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">目標用戶</h5>
+            <div class="card-body">
+              <p class="card-text">此企劃的目標用戶為⋯</p>
+              <ul class="list-group list-group-flush fw-light">
+                <li class="list-group-item px-0">Apple 家庭的全新使用者。</li>
+                <li class="list-group-item px-0">想要有比 Apple 家庭更好的控制與操作體驗的使用者。</li>
+                <li class="list-group-item px-0">想要為 iPad 佈置簡化且快捷的儀表板模式的使用者。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="wireframes" class="container p-3">
+      <h2 class="ms-1 my-3 fw-bold text-main ">原型</h2>
+      <div id="wireframesRow" class="row row-cols-1 row-cols-md-3 flex-nowrap overflow-auto">
+        <div id="wireframesHint" class="col hint d-flex align-items-center mx-auto">
+          <img src="img/Hint.svg" alt="Hint" class="iconStyle" style="width: 40px;">
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">Apple Home 首頁佈局方式</h5>
+            <div class="card-body">
+              <p class="card-text">在深入研究了競品的應用後，我始終覺得 Apple 家庭的首頁佈局還是最適合的。對於工具類型的應用，功能需要簡單易用，且容易操作，因此接觸面積較大的方塊比起列表是更好的呈現方式。</p>
+              <p class="card-text">在提升交互體驗方面。對於配件的方塊模塊，不單顯示配件的狀態，更增加了選單圖標，方便用戶快速連結至功能頁面。作為最基礎，點擊方塊模塊來開關配件的操作模式也保留下來。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">配件的列表視圖</h5>
+            <div class="card-body">
+              <p class="card-text">方塊模塊更容易被點擊，但不利於瀏覽閱讀，如果用戶想以群組的方式瀏覽配件？我在 iOS 中為配件提供列表視圖。</p>
+              <p class="card-text">配件的列表視圖是以房間來分組。雖然在導覽標籤的房間頁面中，用戶依樣可以依照房間選擇配件，但很多時候在用戶配件多的情況下，很容易忘了想找的配件被分配在哪個房間中，首頁的配件列表視圖就是為了解決這個問題而生。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">結構化的配件頁面</h5>
+            <div class="card-body">
+              <p class="card-text">結構化不僅僅表示整齊。對於前端設計來說，結構化的設計讓設計師專注在配件的功能。舉例來說，自然而然的會認為燈具的功能與相機大不相同，但它們都需要一個開關，並且擁有相似的結構來呈現一些非功能操作，比如重新命名和瀏覽配件資訊。然後在功能頁面上再各別設計。而對於後端開發來說，結構化節約了很多時間。</p>
+            </div>
+          </div>
+        </div>
+        <div class="co pb-3">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">觸發–條件–情境自動化流程</h5>
+            <div class="card-body">
+              <p class="card-text">自動化設定對用戶來說確實是最難的地方。觸發–條件–情境的三步驟設計自動化設定流程非常有邏輯。試想我們生活中的所有因果關係，因為觸發，所以情境發生，然後添加一些執行的限制條件，即原理。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">iPad 特有的儀表板模式</h5>
+            <div class="card-body">
+              <p class="card-text">在目標章節中提到，一些用戶會將淘汰的 iPad 安裝在牆上使其成為儀表板，作為智慧居家的控制中心。在某些情況下，儀表板可能更加方便，例如要求 HomePod 的指令過於復雜、或者您的 iOS 設備暫時不在身邊、或者您只想查看時間、天氣或溫度。</p>
+              <p class="card-text">儀表板需要具備一些特定的功能，例如始終顯示在螢幕上的小工具、更大的配件方塊模塊，以及直接連入核心功能的捷徑。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex mt-3 overflow-scroll">
+        <img src="img/Wireframes/1.0.0.0.0.png" alt="Home" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/1.1.0.0.0.png" alt="Room" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/1.2.0.0.0.png" alt="Automation" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/1.3.0.0.0.png" alt="Setting" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/2.2.2.0.0.png" alt="Function - Lights" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/3.0.6.0.0.png" alt="Function - Blinds" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/3.0.6.1.0.png" alt="Function - AC" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/3.0.6.2.0.png" alt="New Automation" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/3.2.2.0.0.png" alt="Condition" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        <img src="img/Wireframes/4.2.2.0.0.png" alt="Scene" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+      </div>
+    </div>
+
+    <div id="style" class="container p-3">
+      <h2 class="ms-1 my-3 fw-bold text-main ">風格</h2>
+      <div id="styleRow" class="row row-cols-1 row-cols-md-3 flex-nowrap overflow-auto">
+        <div id="styleHint" class="col hint d-flex align-items-center mx-auto">
+          <img src="img/Hint.svg" alt="Hint" class="iconStyle" style="width: 40px;">
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">主題配色</h5>
+            <img src="img/Style/ThemeColor.svg" alt="Theme color" width="148.89" class="mt-3 mx-2" style="filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.25));">
+            <div class="card-body">
+              <p class="card-text">為了呈現深沉和可靠的感覺，我選用了 Hex <span class="text-main">#1A56A2</span> 的海洋藍，HSB 214, 84, 64 作為主色。</p>
+              <p class="card-text">在次要顏色上，我保留了主色的色相，並將飽和度調整至 10，明度調整至 95，Hex <span class="text-secondary">#DAE5F2</span>。</p>
+              <p class="card-text">而輔色的設定方面，我保留了主色的飽和度與明度，但色相減去 30 為 194，Hex <span class="text-auxiliary">#21A4CC</span> in Hex.</p>。</p>
+              <p class="card-text">最後，在三階灰色上，我參考了莫蘭迪灰，分別為 <span class="text-darkGray">#656667</span> 的深灰、<span class="text-neutralGray">#B4B4B4</span> 的中灰，與 <span class="text-lightGray">#D4D1CD</span> 的淺灰。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">圖標</h5>
+            <img src="img/Style/Icons.svg" alt="Icons" class="mt-3 mx-2 iconStyle">
+            <div class="card-body">
+              <p class="card-text">顏色填充的圖標飽滿，但不容易做到顏色的統一，往往會分散掉主色的視覺印象。再者，在智慧居家的應用中，圖標的使用更為多元與獨特，比如應用在房間與配件上，而有些並不完全適合用填充的方式呈現。我選擇 2px 寬的邊框作為線條樣式的圖標，並以主色搭配。</p>
+              <p class="card-text">在線條銜接部分，要維持銳利的印象，採用尖角。</p>
+              <p class="card-text">在 iOS 的應用程式中，主要使用 22px 的圖標，24px 應用在導覽列圖標中。iPadOS 與 macOS 則以 24px 為主要尺寸。watchOS 則採用 22px。</p>
+              <p class="card-text">A在許多嘗試後，對於房間圖標的設計，我選擇以最具代表的物品作為呈現，如沙發代表著客廳。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">Logo 設計</h5>
+            <img src="img/Style/LogoDesign.svg" alt="Logo design" class="mt-3 mx-2 iconStyle">
+            <div class="card-body">
+              <p class="card-text">Logo 的設計發源自房子的印象，以及「m」與「y」兩個字母來呈現「my」</p>
+              <p class="card-text">基礎形狀為兩塊重疊、水平翻轉相對的缺角矩形，並且承襲圖標設計而來的線條樣式。</p>
+              <p class="card-text">最後為了突出字母的印象，應用了主色與輔色。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">圓角矩形的應用/h5>
+            <img src="img/Style/RoundedRectangle.svg" alt="Rounded rectangle" class="mt-3 mx-2">
+            <div class="card-body">
+              <p class="card-text">列表是這個項目中最被廣泛運用的組件。為了讓應用顯得更為柔和，圓角矩形被廣泛的使用。</p>
+              <p class="card-text">列表以群組的方式排列，第一列與最後一列採用半徑 7 的圓角，使其成為一個圓角的整體。</p>
+              <p class="card-text">更大尺寸的組件如方塊模塊與彈出視窗，圓角半徑為 14。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-3">
+          <div class="card h-100  shadow-sm">
+            <h5 class="card-header">選中與未選中狀態</h5>
+            <img src="img/Style/ActiveAndInactive.svg" alt="Active and inactive" class="mt-3 mx-2">
+            <div class="card-body">
+              <p class="card-text">將線條樣式的圖標填滿或許是最為常見的選中與為選中狀態變化方式，但如同在圖標設計中所述，部分圖標在單一顏色下填充效果並不理想，所以在此項目中以淺灰作為為選中狀態。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="display" class="container p-3">
+      <div id="iPhoneDisplay" class="mb-2">
+        <h2 class="ms-1 my-3 fw-bold text-main ">iPhone 呈現</h2>
+        <div id="functionOne" class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">導覽標籤中各基礎頁面分佈，家–房間–自動化–設定；配件的列表視圖。</p>
+          </div>
+        </div>
+        <div id="functionOneDisplay" class="d-flex mt-2 mb-4 overflow-auto">
+          <img src="img/Display/iOS/FunctionOne/1.0.0.0.0.png" alt="Home" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionOne/1.1.0.0.0.png" alt="Room" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionOne/1.2.0.0.0.png" alt="Automation" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionOne/1.3.0.0.0.png" alt="Setting" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionOne/1.0.0.0.1.png" alt="Home / List view" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        </div>
+        <div id="functionTwo" class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">結構化的配件頁面。</p>
+          </div>
+        </div>
+        <div id="functionTwoDisplay" class="d-flex mt-2 mb-4 overflow-auto">
+          <img src="img/Display/iOS/FunctionTwo/2.0.6.0.0.png" alt="Accessory" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionTwo/2.0.6.0.7.png" alt="Switch" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionTwo/2.0.6.0.8.png" alt="Motion sensor" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionTwo/3.0.6.0.1.png" alt="Function / Light" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionTwo/3.0.6.0.2.png" alt="Function / Blinds" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionTwo/3.0.6.0.3.png" alt="Function / AC" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionTwo/3.0.6.0.4.png" alt="Function / Camera" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionTwo/3.0.6.0.5.png" alt="Function / Locker" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        </div>
+        <div id="functionThree" class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">情境的快速設置與觸發–條件–情境的自動化流程。</p>
+          </div>
+        </div>
+        <div id="functionThreeDisplay" class="d-flex mt-2 mb-4" style="overflow-x: scroll;">
+          <img src="img/Display/iOS/FunctionThree/2.2.1.0.0.png" alt="New scene" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionThree/3.2.1.0.0.png" alt="Suggested scene" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionThree/4.2.1.2.0.png" alt="Add accessory or scene" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionThree/2.2.2.0.0.png" alt="New automation" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionThree/3.2.2.0.0.png" alt="Condition" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iOS/FunctionThree/4.2.2.0.0.png" alt="Scene" width="187.5" class="mt-3 mx-2 pb-4 UIStyle">
+        </div>
+      </div>
+      <div id="iPadDisplay" class="mb-2">
+        <h2 class="ms-1 my-3 fw-bold text-main ">iPad 呈現</h2>
+        <div id="vertical" class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">垂直視圖，側邊導覽與彈出視窗設計。</p>
+          </div>
+        </div>
+        <div id="verticalDisplay" class="d-flex mt-2 mb-4" style="overflow-x: scroll;">
+          <img src="img/Display/iPadOS/Vertical/1.0.0.0.0.png" alt="Home" width="417" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iPadOS/Vertical/1.0.1.0.0.png" alt="Home / Sidebar" width="417" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iPadOS/Vertical/2.0.6.0.0.png" alt="Light" width="417" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iPadOS/Vertical/3.0.6.0.0.png" alt="Function / Light" width="417" class="mt-3 mx-2 pb-4 UIStyle">
+        </div>
+        <div id="horizontal" class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">水平視圖中的儀表板模式。</p>
+          </div>
+        </div>
+        <div id="horizontalDisplay" class="d-flex mt-2 mb-4 overflow-auto">
+          <img src="img/Display/iPadOS/Horizontal/1.0.7.0.0.png" alt="Home / Dashboard" width="597" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iPadOS/Horizontal/2.0.7.1.0.png" alt="Light" width="597" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/iPadOS/Horizontal/2.0.7.1.1.png" alt="Function / Light" width="597" class="mt-3 mx-2 pb-4 UIStyle">
+        </div>
+      </div>
+      <div id="macAndWatchDisplay" class="mb-2">
+        <h2 class="ms-1 my-3 fw-bold text-main ">Mac & Apple Watch 呈現</h2>
+        <div id="mac" class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">側邊導覽佈局與兩窗式彈出視窗設計。</p>
+          </div>
+        </div>
+        <div id="macDisplay" class="d-flex mt-2 mb-4 overflow-auto">
+          <img src="img/Display/macOS/1.0.0.0.0.png" alt="Home" width="720" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/macOS/2.0.5.0.0.png" alt="Light" width="720" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/macOS/3.0.5.0.0.png" alt="Function / Light" width="720" class="mt-3 mx-2 pb-4 UIStyle">
+        </div>
+        <div id="appleWatch" class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">基礎佈局與控制頁面。</p>
+          </div>
+        </div>
+        <div id="appleWatchDisplay" class="d-flex mt-2 mb-4 overflow-auto">
+          <img src="img/Display/watchOS/1.0.0.0.png" alt="myHome / Dashboard" width="184" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/watchOS/2.0.0.0.png" alt="Room" width="184" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/watchOS/3.0.0.0.png" alt="Display" width="184" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/watchOS/3.0.0.1.png" alt="Display / Scroll down" width="184" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/watchOS/4.0.0.0.png" alt="Light" width="184" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/watchOS/5.0.0.0.png" alt="Function / Light" width="184" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/watchOS/5.0.0.1.png" alt="Function / Blinds" width="184" class="mt-3 mx-2 pb-4 UIStyle">
+          <img src="img/Display/watchOS/5.0.0.2.png" alt="Function / AC" width="184" class="mt-3 mx-2 pb-4 UIStyle">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="container-fluid d-flex align-items-center py-4 bg-main text-white">
+    <div class="container">
+      <div class="col d-flex mb-3 justify-content-center">
+        <span class="socialApps mx-2"><a href=""><img src="img/SocialApps/LinkedIn.svg" alt="LinkedIn" class="iconStyle"></a></span>
+        <span class="socialApps mx-2"><a href=""><img src="img/SocialApps/Line.svg" alt="Line" class="iconStyle"></a></span>
+        <span class="socialApps mx-2"><a href=""><img src="img/SocialApps/Facebook.svg" alt="Facebook" class="iconStyle"></a></span>
+        <span class="socialApps mx-2"><a href=""><img src="img/SocialApps/Behance.svg" alt="Behance" class="iconStyle"></a></span>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <p>© Wayne, Design. 2021. Passion</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <script id="closeSecondaryNav">
+    $(function(){
+      $('#secondaryNav a').on('click', function(){
+      $('.navbar-toggler').trigger('click');
+      });
+    });
+  </script>
+  
+  <script id="scrollTo">  
+    $(".backgroundClick").click(function() {
+      if ($(window).width() >= 768) {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#background").offset().top - 100
+        }, 500,);
+        } else {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#background").offset().top - 380
+        }, 300,);
+      };
+    });
+    $(".personaClick").click(function() {
+      if ($(window).width() >= 768) {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#persona").offset().top - 100
+        }, 500,);
+        } else {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#persona").offset().top - 380
+        }, 300,);
+      };
+      $("#hambergur").attr("aria-expanded","false");
+    });
+    $(".userStoryClick").click(function() {
+      if ($(window).width() >= 768) {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#userStory").offset().top - 100
+        }, 500,);
+        } else {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#userStory").offset().top - 380
+        }, 300,);
+      };
+    });
+    $(".goalsClick").click(function() {
+      if ($(window).width() >= 768) {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#goals").offset().top - 100
+        }, 500,);
+        } else {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#goals").offset().top - 380
+        }, 300,);
+      }
+    });
+    $(".wireframesClick").click(function() {
+      if ($(window).width() >= 768) {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#wireframes").offset().top - 100
+        }, 500,);
+        } else {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#wireframes").offset().top - 380
+        }, 300,);
+      }
+    });
+    $(".styleClick").click(function() {
+      if ($(window).width() >= 768) {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#style").offset().top - 100
+        }, 500,);
+        } else {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#style").offset().top - 380
+        }, 300,);
+      }
+    });
+    $(".DisplayClick").click(function() {
+      if ($(window).width() >= 768) {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#Display").offset().top - 100
+        }, 500,);
+        } else {
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#iPhoneDisplay").offset().top - 380
+        }, 300,);
+      }
+    });
+  </script>
+
+  <script id="fadeInUp">
+    $(document).ready(function(){
+      if ($(window).width() >= 992){
+        $("#persona").addClass("animate__animated");
+        $("#persona").addClass("animate__fadeInUp");
+        $("#userStory").addClass("animate__animated");
+        $("#userStory").addClass("animate__fadeInUp");
+      } else if ($(window).width() >= 768){
+        $("#persona").addClass("animate__animated");
+        $("#persona").addClass("animate__fadeInUp");
+      }
+    });
+    $(window).scroll(function() {
+      var top_of_element = $("#persona").offset().top;
+      var bottom_of_element = $("#persona").offset().top + $("#persona").outerHeight();
+      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+      var top_of_screen = $(window).scrollTop();
+
+      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $("#persona").addClass("animate__animated");
+        $("#persona").addClass("animate__fadeInUp");
+        }
+    });
+    $(window).scroll(function() {
+      var top_of_element = $("#userStory").offset().top;
+      var bottom_of_element = $("#userStory").offset().top + $("#userStory").outerHeight();
+      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+      var top_of_screen = $(window).scrollTop();
+
+      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $("#userStory").addClass("animate__animated");
+        $("#userStory").addClass("animate__fadeInUp");
+      }
+    });
+    $(window).scroll(function() {
+      var top_of_element = $("#goals").offset().top;
+      var bottom_of_element = $("#goals").offset().top + $("#goals").outerHeight();
+      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+      var top_of_screen = $(window).scrollTop();
+
+      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $("#goals").addClass("animate__animated");
+        $("#goals").addClass("animate__fadeInUp");
+      }
+    });
+    $(window).scroll(function() {
+      var top_of_element = $("#wireframes").offset().top;
+      var bottom_of_element = $("#wireframes").offset().top + $("#wireframes").outerHeight();
+      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+      var top_of_screen = $(window).scrollTop();
+
+      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $("#wireframes").addClass("animate__animated");
+        $("#wireframes").addClass("animate__fadeInUp");
+      }
+    });
+    $(window).scroll(function() {
+      var top_of_element = $("#style").offset().top;
+      var bottom_of_element = $("#style").offset().top + $("#style").outerHeight();
+      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+      var top_of_screen = $(window).scrollTop();
+
+      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $("#style").addClass("animate__animated");
+        $("#style").addClass("animate__fadeInUp");
+      }
+    });
+    $(window).scroll(function() {
+      var top_of_element = $("#iPhoneDisplay").offset().top;
+      var bottom_of_element = $("#iPhoneDisplay").offset().top + $("#iPhoneDisplay").outerHeight();
+      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+      var top_of_screen = $(window).scrollTop();
+
+      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $("#iPhoneDisplay").addClass("animate__animated");
+        $("#iPhoneDisplay").addClass("animate__fadeInUp");
+      }
+    });
+    $(window).scroll(function() {
+      var top_of_element = $("#iPadDisplay").offset().top;
+      var bottom_of_element = $("#iPadDisplay").offset().top + $("#iPadDisplay").outerHeight();
+      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+      var top_of_screen = $(window).scrollTop();
+
+      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $("#iPadDisplay").addClass("animate__animated");
+        $("#iPadDisplay").addClass("animate__fadeInUp");
+      }
+    });
+    $(window).scroll(function() {
+      var top_of_element = $("#macAndWatchDisplay").offset().top;
+      var bottom_of_element = $("#macAndWatchDisplay").offset().top + $("#macAndWatchDisplay").outerHeight();
+      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+      var top_of_screen = $(window).scrollTop();
+
+      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $("#macAndWatchDisplay").addClass("animate__animated");
+        $("#macAndWatchDisplay").addClass("animate__fadeInUp");
+      }
+    });
+  </script>
+
+  <script id="checkHint">
+    $(document).ready(function(){
+      if ($(window).width() >= 768) {
+        $("#personaHint").removeClass("d-flex"); 
+        $("#personaHint").hide();
+      }
+    })
+  </script>
+
+  <script id="getHintHeight">
+    $(document).ready(function(){
+      $("#personaHint").height($("#personaRow").height());
+    })
+    $(document).ready(function(){
+      $("#wireframesHint").height($("#wireframesRow").height());
+    })
+    $(document).ready(function(){
+      $("#styleHint").height($("#styleRow").height());
+    })
+  </script>
+
+  <script id="toggleHint">
+    $('#personaRow').scroll(function() {
+      if ($("#personaRow").scrollLeft() != 0) {
+        $("#personaHint").removeClass("d-flex"); 
+        $("#personaHint").hide();                           
+      } else {
+        $("#personaHint").addClass("d-flex"); 
+        $("#personaHint").show();  
+      }
+    })
+    $('#wireframesRow').scroll(function() {
+      if ($("#wireframesRow").scrollLeft() != 0) {
+        $("#wireframesHint").removeClass("d-flex"); 
+        $("#wireframesHint").hide();                           
+      } else {
+        $("#wireframesHint").addClass("d-flex"); 
+        $("#wireframesHint").show();  
+      }
+    })
+    $('#styleRow').scroll(function() {
+      if ($("#styleRow").scrollLeft() != 0) {
+        $("#styleHint").removeClass("d-flex"); 
+        $("#styleHint").hide();                           
+      } else {
+        $("#styleHint").addClass("d-flex"); 
+        $("#styleHint").show();  
+      }
+    })
+  </script>
+</body>
+</html>
