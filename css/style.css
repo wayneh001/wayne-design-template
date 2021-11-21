@@ -8,10 +8,6 @@ body {
     font-family: 'Ubuntu', 'Noto Sans TC', sans-serif;
 }
 
-#logoIndex {
-    animation-duration: 3s;
-}
-
 .bg-main {
     background-color: #1A56A2;
 }
