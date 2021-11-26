@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 110 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g id="画板1" transform="matrix(1.08911,0,0,1.06667,0,0)">
+        <rect x="0" y="0" width="101" height="150" style="fill:none;"/>
+        <g transform="matrix(0.918182,0,0,0.9375,4.13182,4.6875)">
+            <path d="M23.7,90.9L20.1,99.8L0.5,99.8L0.5,0L20.1,0L20.1,49.9L20.6,50L40.6,0L60.4,0L80.4,50L80.9,49.9L80.9,0L100.5,0L100.5,150L80.9,150L80.9,100.1L77.3,91L77.2,90.8L60.3,90.8L60.3,102.9L72.9,102.9L72.9,122.5L60.3,122.5L60.3,130.6L72.9,130.6L72.9,150L31.4,150L20.2,138.8L20.2,150L0.5,150L0.5,105.4L20.1,105.4L20.1,111.1L40.7,131.7L40.7,90.7L23.8,90.7L23.7,90.9ZM50.7,24.7L50.5,24.1L50.3,24.7L31.8,70.9L31.7,71.2L69.4,71.2L69.3,70.9L50.7,24.7Z" style="fill:none;fill-rule:nonzero;stroke:rgb(26,86,162);stroke-width:0.5px;"/>
+        </g>
+    </g>
+</svg>
